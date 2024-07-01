@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word probelm</title>
+</head>
+<style>
+    .java {
+        text-align: center;
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <div class="java">
+        <h2>Javascript Word-probelm</h2>
+    </div>
+    <div>
+        <p>1. Ariel was playing basketball. 1 of her shots went in the hoop. 2 of her shots did not go in the hoop. How
+            many shots were there in total?</p>
+    </div>
+    <div class="java">
+        Answer:
+    </div>
+    <p id="hoopshot"></p>
+    <script>
+        let numberOfShotIn = 1;
+        let numberOfShotMissed = 2;
+        let ShotsInTotal = numberOfShotIn + numberOfShotMissed;
+        document.getElementById("shotinthehoop").innerHTML = "Number of shots in total = " + ShotsInTotal
+        console.log("Number of shots in total =" + ShotsInTotal)
+    </script>
+    <p>
+        2. Adrianna has 10 pieces of gum to share with her friends. There wasn’t enough gum for all her friends, so she
+        went to the store to get 3 more pieces of gum. How many pieces of gum does Adrianna have now?
+    </p>
+    <div class="java">
+        Answer:
+    </div>
+    <p id="Adrianna"></p>
+    <script>
+        let gumwithAdrianna = 10;
+        let gumBought = 3;
+        let piecesofgum = gumwithAdrianna + gumBought;
+        document.getElementById("Adrianna").innerHTML = "Adrianna has " + gumBought + " pieces of gum"
+    </script>
+    <p>
+        3. Adrianna has 10 pieces of gum to share with her friends. There wasn’t enough gum for all her friends, so she
+        went to the store and got 70 pieces of strawberry gum and 10 pieces of bubble gum. How many pieces of gum does
+        Adrianna have now?
+    </p>
+    <div class="java">
+        Answer:
+    </div>
+    <p id="adrianna"></p>
+    <script>
+        let Adriannagum = 10;
+        let strawberrygum = 70;
+        let bubblegum = 10;
+        let totalsumofgum = Adriannagum + strawberrygum + bubblegum;
+        document.getElementById('adrianna').innerHTML = "Adrianna has " + totalsumofgum + " pieces of gum"
+    </script>
+    <p>
+        4. The restaurant has 175 normal chairs and 20 chairs for babies. How many chairs does the
+        restaurant have in total?
+    </p>
+    <div class="java">
+        Answer:
+    </div>
+    <p id="restaurant"></p>
+    <script>
+        let normalchairs = 175;
+        let babieschairs = 20;
+        let totalofchairs = normalchairs + babieschairs;
+        document.getElementById('restaurant').innerHTML = "Total of chairs in the restaurant " + totalofchairs
+    </script>
+    <p>
+        5. How many cookies did you sell if you sold 320 chocolate cookies and 270 vanilla cookies?
+    </p>
+    <div class="java">
+        Answer:
+    </div>
+    <p id="cookies"></p>
+    <script>
+        let chocolatecookies = 320;
+        let vanillacookies = 270;
+        let totalcookies = chocolatecookies + vanillacookies;
+        document.getElementById("cookies").innerHTML = "cookies sold " + totalcookies
+    </script>
+</body>
+
+</html>
