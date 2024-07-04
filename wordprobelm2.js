@@ -1,4 +1,3 @@
-<script>
 
 function myfunction(number1, number2) {
     return number1 + number2;
@@ -19,7 +18,7 @@ console.log(convert(2));
 
 
 function areaoftri(base, height) {
-    return base * height / 2;
+    return (base * height) / 2;
 }
 
 console.log(areaoftri(3, 2));
@@ -35,8 +34,8 @@ console.log(calcAge(65));
 console.log(calcAge(0));
 console.log(calcAge(20));
 
-function getFirstVaule(arr){
-    return arr[0];
+function getFirstVaule(array){
+    return array(0);
 }
 
 console.log(getFirstVaule([1, 2, 3]));
@@ -46,10 +45,9 @@ console.log(getFirstVaule([-500, 0, 50]));
 
 
 function addition(num){
-    return num, +1
+    return num + 1
 }
 
 console.log(addition(0));
 console.log(addition(9));
-console.log(addition(-3));
-</script>
+console.log(addition(-3)); 
